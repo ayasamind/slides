@@ -24,8 +24,116 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n>>>\n$">
+					<script type="text/template">
+						<!-- .slide: data-background=black -->
+						### スマートコントラクトのフレームワークTruffleでDapps作ってみた
+						@ayasamind
+
+						---
+
+						## コンテンツ
+						- 自己紹介
+						- 紹介する技術について
+							- スマートコントラクトって？
+							- Dappって？
+						- デモ
+						- Truffleについて
+
+						---
+
+						## 自己紹介
+						<img src="image/masaya.jpg" height="50%" />
+						- 吉野 雅耶(@ayasamind)
+
+						>>>
+
+						- 株式会社Fusicエンジニア
+						- 業務ではphpを主に使っています
+						- 「歌って踊れるエンジニア」
+
+						>>>
+
+						### スマートコントラクトを始めたきっかけ
+						- バイト先のプログラミング教室
+							- BTCへの興味
+							- VALU
+							- ブロックチェーンへの興味
+
+						---
+
+						## スマートコントラクトとは？
+						> 予め定められた任意のルールに基づき、自動的にデジタルアセットを移動するシステム
+
+						引用) はじめてのブロックチェーンアプリケーション
+
+						>>>
+
+						### 例えば
+						etherを送金することをトリガー(きっかけ)に
+						プログラムを実行して
+						ブロックチェーンに情報を書き込むことができる
+
+						>>>
+
+						### DAO
+						- 自律分散組織
+						![](image/blockchain.jpeg)
+
+						------
+
+						## Dappsとは
+
+						- 「分散型アプリケーション」
+						- スマートコントラクトのような分散型台帳技術を活用したアプリケーションのこと
+						- ネットワーク上のコミュニティにより協同的に管理していく
+
+						>>>
+
+						### Dappの例
+						[CryptoKittiesの記事](http://jp.techcrunch.com/2017/12/04/2017-12-03-people-have-spent-over-1m-buying-virtual-cats-on-the-ethereum-blockchain/)
+						![CryptoKitties](image/CryptoKitties.png)
+
+						---
+
+						## Dappを作ってみた
+
+						[Truffle](http://truffleframework.com/)
+						![画像](image/truffle.png)
+
+						>>>
+
+						- Ethereumを使ったDappsのフレームワーク
+						- jsライクなSolidityで構成されている
+						- チュートリアルをやってみた
+
+						---
+
+						### pet-shop-tutorial
+
+						デモ
+
+						---
+
+						### 感想
+
+						- Truffleのチュートリアルは丁寧
+						- スマートコントラクトの説明もしてくれている
+						- Webの知識で実装できそう
+
+						>>>
+
+						##### 今回の実装内容の最初の部分は以下の記事に
+
+						- [MacでEthereumを使ってブロックチェーン入門(Go-ethereum導入編)](https://qiita.com/ayasamind/items/ec1ee133478d5ac0c676)
+						- [MacでEthereumを使ってブロックチェーン入門(Truffle,Browser-Solidity導入編)](https://qiita.com/ayasamind/items/07266e5427a89f2c85ad)
+
+
+
+
+
+					</script>
+				</section>
 			</div>
 		</div>
 
