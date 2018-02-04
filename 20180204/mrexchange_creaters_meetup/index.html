@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>スマートコントラクトのフレームワークTruffleでDapps作ってみた</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
@@ -24,11 +24,15 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n>>>\n$">
+				<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n>>>\n$" data-separator-notes="^Note:">
 					<script type="text/template">
 						<!-- .slide: data-background=black -->
 						### スマートコントラクトのフレームワークTruffleでDapps作ってみた
 						@ayasamind
+
+						Note:
+
+						aaaaa
 
 						---
 
@@ -42,15 +46,46 @@
 
 						---
 
+						## 余談
+						reveal.js使ってます
+						![reveal](image/reveal.png)
+
+						>>>
+
+						#### markdownでスライドを気軽に作れて便利。
+
+						---
+
+						## どんな人がいるんだろう
+
+						>>>
+
+						## 学生さん
+
+						>>>
+
+						### エンジニアorデザイナー
+
+						>>>
+
+						## その他の社会人の方
+
+
+						---
+
 						## 自己紹介
 						<img src="image/masaya.jpg" height="50%" />
 						- 吉野 雅耶(@ayasamind)
 
 						>>>
 
-						- 株式会社Fusicエンジニア
+						- 株式会社Fusicエンジニア(4ヶ月目)
 						- 業務ではphpを主に使っています
 						- 「歌って踊れるエンジニア」
+
+						>>>
+
+						![aidol](image/hikaru2.jpg)
 
 						>>>
 
@@ -60,7 +95,13 @@
 							- VALU
 							- ブロックチェーンへの興味
 
+						>>>
+
+						## ブロックチェーン初心者です
+						## お手柔らかに
+
 						---
+
 
 						## スマートコントラクトとは？
 						> 予め定められた任意のルールに基づき、自動的にデジタルアセットを移動するシステム
@@ -80,7 +121,7 @@
 						- 自律分散組織
 						![](image/blockchain.jpeg)
 
-						------
+						---
 
 						## Dappsとは
 
@@ -90,13 +131,13 @@
 
 						>>>
 
-						### Dappの例
+						### Dappsの例
 						[CryptoKittiesの記事](http://jp.techcrunch.com/2017/12/04/2017-12-03-people-have-spent-over-1m-buying-virtual-cats-on-the-ethereum-blockchain/)
 						![CryptoKitties](image/cryptokitties.png)
 
 						---
 
-						## Dappを作ってみた
+						## Dappsを作ってみた
 
 						[Truffle](http://truffleframework.com/)
 						![画像](image/truffle.png)
@@ -105,13 +146,34 @@
 
 						- Ethereumを使ったDappsのフレームワーク
 						- jsライクなSolidityで構成されている
-						- チュートリアルをやってみた
+						- チュートリアルをやってみた(ほんとにやってみただけw)
+
 
 						---
 
 						### pet-shop-tutorial
 
 						デモ
+
+						>>>
+
+						開発環境立ち上げ
+						スマコン埋め込み
+
+						```
+						truffle dev
+
+						truffle migrate
+						```
+
+
+						>>>
+
+						サーバー立ち上げ
+
+						```
+						npm run dev
+						```
 
 						---
 
@@ -123,14 +185,16 @@
 
 						>>>
 
+						- CryptoKittiesはチュートリアルいじったら意外とすぐできる？
+						- Dappsの可能性はまだまだこれから
+						- 是非一緒に何かつくりましょう〜
+
+						>>>
+
 						##### 今回の実装内容の最初の部分は以下の記事に
 
 						- [MacでEthereumを使ってブロックチェーン入門(Go-ethereum導入編)](https://qiita.com/ayasamind/items/ec1ee133478d5ac0c676)
 						- [MacでEthereumを使ってブロックチェーン入門(Truffle,Browser-Solidity導入編)](https://qiita.com/ayasamind/items/07266e5427a89f2c85ad)
-
-
-
-
 
 					</script>
 				</section>
